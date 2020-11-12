@@ -1,0 +1,25 @@
+batch_size: 128
+epochs: 80
+eval_every_n_epochs: 1
+fine_tune_from: None
+log_every_n_steps: 50
+weight_decay: 10e-6
+fp16_precision: False
+
+model:
+  out_dim: 128
+  base_model: "resnet50"
+
+dataset:
+  s: 1
+  input_shape: (224,224,3)
+  num_workers: 8
+  valid_size: 0.05
+  data_path: '/data/kf/codehub/2020-opentqa/opentqa/datasets/tqa/'
+  splits: ['train', 'val', 'test']
+
+loss:
+  temperature: 0.5
+  use_cosine_similarity: True
+
+gpu: '1'
