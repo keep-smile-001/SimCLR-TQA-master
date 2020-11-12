@@ -1,7 +1,6 @@
-# Jie Ma uses SimCLR to learn diagram representations
 -----------------------------------------
 # PyTorch SimCLR: A Simple Framework for Contrastive Learning of Visual Representations
-
+we modify this open source code simclr to obtain diagram representations. 
 ### Blog post with full documentation: [Exploring SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://sthalles.github.io/simple-self-supervised-learning/)
 
 ![Image of SimCLR Arch](https://sthalles.github.io/assets/contrastive-self-supervised/cover.png)
