@@ -1,6 +1,6 @@
 -----------------------------------------
 # PyTorch SimCLR: A Simple Framework for Contrastive Learning of Visual Representations
-we modify this open source code simclr to obtain diagram representations within the TQA dataset. The details are in /data_aug/diagram_loader.py, dataset_wrapper.py, ./get_diagram_representations and so on.  Please see the details in [this](https://github.com/google-research/simclr).
+we modify this open source code to obtain diagram representations within the TQA dataset. The modified details are in /data_aug/diagram_loader.py, dataset_wrapper.py, ./get_diagram_representations and so on.  Please see the details of SimCLR in [this](https://github.com/google-research/simclr).
 ### Blog post with full documentation: [Exploring SimCLR: A Simple Framework for Contrastive Learning of Visual Representations](https://sthalles.github.io/simple-self-supervised-learning/)
 
 ![Image of SimCLR Arch](https://sthalles.github.io/assets/contrastive-self-supervised/cover.png)
